@@ -88,6 +88,17 @@ section h3 {
   color: #333;
 }
 
+.delete-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 1.2em;
+  transition: color 0.2s;
+}
+
+.delete-icon:hover {
+  color: #ff0000;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
